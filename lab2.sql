@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS "Name" (
 	"fips" varchar(4) NOT NULL,
-	"names" varchar(100) NOT NULL UNIQUE,
+	"name" varchar(100) NOT NULL UNIQUE,
 	PRIMARY KEY ("fips")
 );
 
